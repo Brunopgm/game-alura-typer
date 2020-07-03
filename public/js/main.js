@@ -14,7 +14,9 @@ $(function(){
         sortField: 'text'
     });
     
-    $('.tooltip').tooltipster();
+    $('.tooltip').tooltipster({
+            trigger:'custom'
+            }); 
     
 });
 
